@@ -2,13 +2,33 @@
 
 /* Set custom variables here */
 
+:root {
+  --bs-primary-rgb: 46, 71, 58;
+  --bs-primary: #2e473a;
+  --bs-btn-bg: #2e473a;
+}
 
+:root {
+  --bs-success-rgb: 246, 243, 237;
+  --bs-success: #f6f3ed;
+}
 
+.btn-primary {
+  background-color: var(--bs-primary);
+}
 
+.nav-link {
+  color: white;
+}
+
+.nav-link-hover {
+  color: #2e473a;
+}
 
 .navbar-brand {
   color: #F6F3ED;
 }
+
 
 body {
   font-family: "Sarala", sans-serif;
@@ -18,6 +38,10 @@ h1, h2, h3 {
   font-family: "Merriweather", serif;
 }
 
+h2 {
+  text-align: center;
+}
+
 #hero {
   height: 800px;
   background-color: #E4E6DB;
@@ -25,11 +49,26 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  text-align: center;
 }
 
 #hero .d-flex {
   height: 800px;
 }
+
+#works {
+  text-align: center;
+}
+
+#smarter {
+  text-align: center;
+}
+
+#smarter img {
+  border-radius: 100%;
+}
+
 
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
