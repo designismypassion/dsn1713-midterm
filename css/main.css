@@ -22,7 +22,7 @@
 }
 
 .nav-link-hover {
-  color: #2e473a;
+  color: grey;
 }
 
 .navbar-brand {
@@ -65,8 +65,9 @@ h2 {
   text-align: center;
 }
 
-#smarter img {
+#saying img {
   border-radius: 100%;
+  text-align: center;
 }
 
 
