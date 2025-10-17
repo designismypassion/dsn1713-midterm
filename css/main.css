@@ -53,6 +53,10 @@ h2 {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+}
+
 #hero .d-flex {
   height: 800px;
 }
